@@ -57,9 +57,12 @@ body{
 	font-size: 130px;
  }
  .navigator{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	width: 800px;
 	margin: auto;
+
+	text-align: justify;						/*центрируем текст в блоке*/
+	text-align-last: justify;				/*центрируем текст в блоке*/
 
 	height: 40px;
 	padding: 10px;
@@ -98,5 +101,6 @@ body{
  input{
 	border: 1px solid black;
 	border-radius: 3px;
-
+	background: rgba(194, 194, 194, 0.5);
+	text-align: center;
  }
