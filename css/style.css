@@ -1,0 +1,102 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	background: url(../fonts/fon1q.jpg) fixed;
+
+}
+
+
+.outer {
+	/*border: 1px solid blue;*/
+ }
+ .inner {
+	/*border: 1px solid red;*/
+	width: 600px;
+	margin: auto;
+
+	text-align: center;
+	font-weight: 900;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 130px;
+ }
+ .navigator{
+	border: 1px solid black;
+	width: 800px;
+	margin: auto;
+
+	height: 40px;
+	padding: 10px;
+ }
+ .navigator a{
+	/*border-right: 1px solid black;*/
+	font-size: 16px;
+	font-weight: 900;
+	color: black;
+	text-shadow: 1px 1px 5px black;
+	padding: 10px;
+
+ }
+ .navigator a:hover{
+	border-bottom: 2px solid black;
+	font-size: 16px;
+	font-weight: 900;
+	color: slategray;
+	text-shadow: 1px 1px 5px slategray;
+
+ }
+
+ .forma{
+	/*border: 1px solid black;*/
+	width: 190px;
+	padding: 10px;
+ } 
+
+ .fio{
+	font-size: 16px;
+	font-weight: 900;
+	text-align: center;
+	border-bottom: 1px solid black;
+
+ }
+ input{
+	border: 1px solid black;
+	border-radius: 3px;
+
+ }
