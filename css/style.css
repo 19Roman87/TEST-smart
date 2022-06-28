@@ -38,35 +38,35 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 body{
-	background: url(../fonts/fon1q.jpg) fixed;
+	background: url(../fonts/fon1.jpg) fixed;
 
 }
 
 
 .outer {
 	/*border: 1px solid blue;*/
- }
- .inner {
+}
+.inner {
 	/*border: 1px solid red;*/
 	width: 600px;
 	margin: auto;
-
 	text-align: center;
 	font-weight: 900;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 130px;
- }
- .navigator{
+	text-shadow: 1px 1px 15px black;
+}
+.navigator{
 	/*border: 1px solid black;*/
-	width: 800px;
-	margin: auto;
+	width: 800px;								/*центрируем текст в блоке*/
+	margin: auto;								/*центрируем текст в блоке*/
 
-	text-align: justify;						/*центрируем текст в блоке*/
-	text-align-last: justify;				/*центрируем текст в блоке*/
+	text-align: justify;						/*растянуть текст в блоке*/
+	text-align-last: justify;				/*растянуть текст в блоке*/
 
 	height: 40px;
 	padding: 10px;
- }
+}
  .navigator a{
 	/*border-right: 1px solid black;*/
 	font-size: 16px;
@@ -75,32 +75,99 @@ body{
 	text-shadow: 1px 1px 5px black;
 	padding: 10px;
 
- }
- .navigator a:hover{
+}
+.navigator a:hover{
 	border-bottom: 2px solid black;
 	font-size: 16px;
 	font-weight: 900;
 	color: slategray;
 	text-shadow: 1px 1px 5px slategray;
 
- }
+}
 
- .forma{
+.forma{
 	/*border: 1px solid black;*/
 	width: 190px;
 	padding: 10px;
- } 
+} 
+.forma input:focus{
+	box-shadow: 0 0 10px black;
+}
 
- .fio{
+.fio{
 	font-size: 16px;
 	font-weight: 900;
 	text-align: center;
 	border-bottom: 1px solid black;
+	text-shadow: 1px 1px 5px black;
 
- }
- input{
+}
+input{
 	border: 1px solid black;
 	border-radius: 3px;
 	background: rgba(194, 194, 194, 0.5);
 	text-align: center;
- }
+}
+.button{
+	background: rgba(194, 194, 194, 0.5);
+	border: 1px solid black;
+	margin: 15px 0 0 0;
+	position: relative;								/*центрируем кнопку*/
+	left: 50%;											/*центрируем кнопку*/
+	transform: translate(-50%, 0);				/*центрируем кнопку*/
+	padding: 5px 25px;
+	border-radius: 13px;
+}
+.button:active{
+	background: rgba(194, 194, 194, 0.5);
+	color: white;
+}
+.content{
+	/*border: 1px solid black;*/
+	width: 73%;
+	height: 600px;
+	margin-left: 25%;
+	margin-top: -134px;
+	overflow: auto;
+	text-indent: 15px;
+	line-height: 20px;
+}
+.forma2{
+	/*border: 1px solid black;*/
+	margin-top: -450px;
+	width: 190px;
+	padding: 10px;
+
+}
+.forma2 p{
+	font-weight: 700;
+	text-shadow: 1px 1px 5px black;
+	font-size: 16px;
+	margin: 10px 0;
+	border-top: 1px solid #000;
+	padding: 10px 0;
+}
+
+textarea:focus{
+	box-shadow: 0 0 15px black;
+}
+
+.forma3{
+	text-align: justify;						/*растянуть текст в блоке*/
+	text-align-last: justify;
+}
+.forma3 button{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 10px;
+	border-radius: 13px;
+}
+
+.footer{
+	/*border: 1px solid black;*/
+	margin-top: 100px;
+	text-align: justify;
+	text-align-last: justify;
+	margin-right: 30px;
+
+}
